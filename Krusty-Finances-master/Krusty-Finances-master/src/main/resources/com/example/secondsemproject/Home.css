@@ -1,0 +1,144 @@
+.anchor-pane {
+    /* Set the background image using the URL */
+    -fx-background-image: url("Homepage.png");
+}
+
+
+.expanded_menu {
+    -fx-background-color : #0c0829;
+}
+
+.btn-minimize {
+    -fx-background-color: transparent;
+}
+
+.btn-minimize:hover {
+    -fx-background-color: #0a0a4b;
+    -fx-cursor: hand;
+}
+
+.btn-exit {
+    -fx-background-color: transparent;
+}
+
+.btn-exit:hover {
+    -fx-background-color: red;
+    -fx-cursor: hand;
+}
+
+
+.menu_toggle:hover {
+    -fx-background-color:#0e0e94 ;
+    -fx-cursor:hand;
+
+}
+.menu_buttons:hover {
+    -fx-background-color: #0e0e94;
+    -fx-cursor: hand;
+}
+
+.history-labels{
+
+    /*-fx-background-color: rgb(1, 213, 22);*/
+    -fx-background-radius: 15;
+}
+
+.anchor-panes{
+    -fx-border-color: #0a0625;
+    -fx-border-width: 3;
+    -fx-border-radius: 15;
+    -fx-background-color: #0a0625;
+
+
+    -fx-background-radius: 15;
+}
+
+.username-field {
+    -fx-font-weight: bold;
+}
+.username-field:hover {
+    -fx-background-color : #0e0e94;
+}
+
+.username-fieldNEW {
+    -fx-font-weight: bold;
+}
+
+.text-field{
+
+    -fx-border-color: #ffffff;
+    -fx-border-width: 3;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+.text{
+    -fx-text-fill: white;
+
+}
+
+
+
+.table-background {
+    -fx-background-color: #0a0625;
+    -fx-table-cell-border-color: derive(-fx-base, 20%);
+    -fx-table-header-border-color: derive(-fx-base, 20%);
+
+    -fx-border-width: 0px;
+
+    -fx-border-radius: 15; /* Rounded corners for the table border */
+    -fx-background-radius: 20; /* Rounded corners for the background */
+    -fx-padding: 10; /* Optional: padding around the table */
+    -fx-border-color: #ddd; /* Optional: border color */
+    /* Optional: border width */
+
+}
+
+.button-all{
+    -fx-background-color: #d02424;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #000000;
+    -fx-border-width: 0;
+
+}
+.button-all:hover {
+    -fx-background-color: #ff5454;
+    -fx-cursor: hand;
+}
+
+.button-search{
+    -fx-background-color: #2db208;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #000000;
+    -fx-border-width: 0;
+
+}
+.button-search:hover {
+    -fx-background-color: #acff7f;
+    -fx-cursor: hand;
+}
+
+.default-color0.chart-bar {
+    -fx-bar-fill: blue; /* Color for the Income series */
+}
+
+.default-color1.chart-bar {
+    -fx-bar-fill: purple; /* Color for the Expense series */
+}
+
+.chart-bar .series2.default-color2.chart-bar {
+    -fx-bar-fill: green; /* Default color for the Balance series (positive balance) */
+}
+
+.reminder-label {
+    -fx-background-color:#0a0625 ;
+    -fx-background-radius:10;
+
+    -fx-padding: 11px;
+    -fx-font-weight : bold;
+}
+
+.avatar-image:hover {
+    -fx-cursor: hand;
+}
